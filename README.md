@@ -9,7 +9,7 @@ I'm Ghulam Mustafa 😉, technology consultant 👨🏻‍💻 from Pakistan. I'
 <img src="https://img.shields.io/badge/-billpwchan%40hotmail.com-7B83EB?&style=for-the-badge&logo=Microsoft-outlook&logoColor=white" ></a>  <a  href="https://www.instagram.com/billpwchan/">   <img src="https://img.shields.io/badge/@billpwchan_-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white"></a>  <a href="https://www.linkedin.com/in/billpwchan1998/"><img src="https://img.shields.io/badge/billpwchan-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" ></a>  <a  href="https://www.billpwchan.com/"><img src="https://img.shields.io/badge/billpwchan.com-%2312100E.svg?&style=for-the-badge&logo=safari&logoColor=white"></a>
 </div>
 
-### Current Status : 📡
+### Current Status Quo : 📡
 
 - 💼 I’ve graduated with a <strong>MSc Computing degree in Management and Finance</strong>.
 - 🔭 I’m working on <strong>FinTech (NLP and DLT)</strong> and <strong>Algorithmic Trading</strong>
@@ -19,7 +19,28 @@ I'm Ghulam Mustafa 😉, technology consultant 👨🏻‍💻 from Pakistan. I'
 - 👀 See my [Personal Portfolio](https://www.billpwchan.com) to get more info
 
 ### Stats Overview : :cyclone:
-<img src="/github-metrics.svg" alt="Metrics" width="50%">
+
+[<img align="left" width="390" alt="🦑" src="asset/base.svg">](#)
+[<img align="right" width="390" alt="🦑" src="asset/fortune.svg">](#)
+[<img align="right" width="390" alt="🦑" src="asset/projects.svg">](#)
+
+[<img align="right" width="390" alt="🦑" src="asset/followup.svg">](#)
+[<img align="left" width="390" alt="🦑" src="asset/isocalendar.svg">](#)
+[<img align="right" width="390" alt="🦑" src="asset/languages.svg">](#)
+
+[<img align="right" width="390" alt="🦑" src="asset/stargazers.svg">](#)
+
+[<img align="left" width="390" alt="🦑" src="asset/reactions.svg">](#)
+[<img align="right" width="390" alt="🦑" src="asset/habits.svg">](#)
+
+[<img align="left" width="390" alt="🦑" src="asset/achievements.svg">](#)
+
+<!-- [<img align="right" width="390" alt="🦑" src="asset/twitter.svg">](#) -->
+
+[<img align="right" width="390" alt="🦑" src="asset/stock.svg">](#)
+
+[<img align="left" width="390" alt="🦑" src="asset/people.svg">](#)
+
 
 <!-- ### Tools I work upon : 🛠
 
@@ -42,6 +63,10 @@ I'm Ghulam Mustafa 😉, technology consultant 👨🏻‍💻 from Pakistan. I'
     <td><img align="center" src="http://github-readme-streak-stats.herokuapp.com?user=billpwchan&theme=material-palenight"/></td>
   </tr>
 </table>
+  
+### Github Activity: 🔥 
+<img align="center" src="https://activity-graph.herokuapp.com/graph?username=billpwchan&theme=dracula&color=B994E6&bg_color=2B2D3D" /> 
+-->
   
 ### Github Activity: 🔥 
 <img align="center" src="https://activity-graph.herokuapp.com/graph?username=billpwchan&theme=dracula&color=B994E6&bg_color=2B2D3D" /> 
