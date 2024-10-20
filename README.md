@@ -1,24 +1,26 @@
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> <span> Hey, Nice to see you. </span> </h1>
 
-I'm Ghulam Mustafa 😉, technology consultant 👨🏻‍💻 from Pakistan. I'm an open-source profession and mostly develop in PHP (Laravel, Wordpress) and Javascript (React, VUE, Next, MERN, MEAN). 🐍.
+I'm Ghulam Mustafa 😉, an Experienced Developer, Product Designer, Techpreneur, and Technology Consultant 👨🏻‍💻 from Pakistan. I specialize in Full-Stack Development, with expertise in PHP (Laravel, WordPress) and JavaScript frameworks, including React, Vue, Next.js, and the MERN and MEAN stacks. 🐍.
 
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=&weight=600&letterSpacing=&pause=1000&color=F70000&background=73800100&vCenter=true&multiline=true&random=true&width=435&lines=Passionate+About+Solving+Complex+Problems;Building+High+Quality+Saleable+Solutions;Keen+Eye+Related+to+UX+and+UI+Design+Pattern;Expertise+in+PHP+Inlcuding%2C+Laravel+%2B+Wordpress;Javascript+Mastery+Including+(MEAN%2C+MERN%2C+React%2C+Next%2C+Nuxt%2C+Vue+)" width='300' alt="Typing SVG" /></a>
-<img src="https://readme-typing-svg.herokuapp.com/demo/font=&weight=600&letterSpacing=&color=F70000&background=73800100&vCenter=true&multiline=true&random=true&lines=Passionate+About+Solving+Complex+Problems;Building+High+Quality+Saleable+Solutions;Keen+Eye+Related+to+UX+and+UI+Design+Pattern;Expertise+in+PHP+Inlcuding%2C+Laravel+%2B+Wordpress;Javascript+Mastery+Including+(MEAN%2C+MERN%2C+React%2C+Next%2C+Nuxt%2C+Vue+)" height="40"/>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=&weight=600&letterSpacing=&pause=1000&color=F70000&background=73800100&vCenter=true&width=500&lines=Passionate+About+Solving+Complex+Problems;Building+High+Quality+Scaleable+Solutions;Keen+Eye+Related+to+UX+and+UI+Design+Pattern;Expertise+in+PHP+Inlcuding%2C+Laravel+%2B+Wordpress;Javascript+Mastery+Including+(MEAN%2C+MERN%2C+React%2C+Next%2C+Nuxt%2C+Vue+)" height="40"/>
 
 <div>
 <a href="mailto: mustafa@saivra.co">
 <img src="https://img.shields.io/badge/-mustafa%40saivra.co-7B83EB?&style=for-the-badge&logo=Microsoft-outlook&logoColor=white" ></a>  <a  href="https://www.instagram.com/billpwchan/">   <img src="https://img.shields.io/badge/@billpwchan_-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white"></a>  <a href="https://www.linkedin.com/in/billpwchan1998/"><img src="https://img.shields.io/badge/billpwchan-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" ></a>  <a  href="https://www.billpwchan.com/"><img src="https://img.shields.io/badge/billpwchan.com-%2312100E.svg?&style=for-the-badge&logo=safari&logoColor=white"></a>
 </div>
 
-### Current Status Quo : 📡
+### Key Highlights of My Expertise: 📡
 
-- 💼 I’ve graduated with a <strong>MSc Computing degree in Management and Finance</strong>.
-- 🔭 I’m working on <strong>FinTech (NLP and DLT)</strong> and <strong>Algorithmic Trading</strong>
-- 🌱 I’m currently learning <strong>RegTech</strong> and <strong>Automated Risk Trading</strong>
-- 🤔 My career interests are with <strong>Crypto Trading, Natural Language Processing</strong>, etc
-- 🔍 I’m looking for career opportunities in the <strong>Quant</strong> or <strong>Banking</strong> industry
-- 👀 See my [Personal Portfolio](https://www.billpwchan.com) to get more info
+- 💻 Experienced Developer – Specialized in full-stack development with PHP (Laravel, WordPress) and JavaScript frameworks (React, Vue, Next.js, MERN, MEAN).
+- 🚀 Techpreneur – Passionate about launching innovative digital solutions and scaling businesses through technology.
+- 🎨 Product Designer – Skilled in creating intuitive and user-friendly designs that enhance customer experiences.
+- 🛠 Technology Consultant – Providing expert guidance on digital transformation, tech strategy, and business growth.
+- 🌍 Global Perspective – Based in Pakistan, with experience working on projects for clients around the world.
+- 📈 Problem Solver – Known for tackling complex challenges with creative and effective technical solutions.
+- 💡 Innovation Enthusiast – Always exploring the latest trends in FinTech, DLT, NLP, and algorithmic trading.
+- 👀 See my [Personal Portfolio](https://www.saivra.co) to get more info
 
 ### Stats Overview : :cyclone:
 
