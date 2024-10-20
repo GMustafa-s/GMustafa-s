@@ -2,7 +2,9 @@
 
 I'm Ghulam Mustafa 😉, technology consultant 👨🏻‍💻 from Pakistan. I'm an open-source profession and mostly develop in PHP (Laravel, Wordpress) and Javascript (React, VUE, Next, MERN, MEAN). 🐍.
 
-<img src="https://readme-typing-svg.herokuapp.com?vCenter=true&width=500&lines=Technology+Consultant+and+FinTech+Engineer;Python+Developer+with+3%2B+Years+Experience;Passionate+about+Algorithmic+Trading" height="40"/>
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=&weight=600&letterSpacing=&pause=1000&color=F70000&background=73800100&vCenter=true&multiline=true&random=true&width=435&lines=Passionate+About+Solving+Complex+Problems;Building+High+Quality+Saleable+Solutions;Keen+Eye+Related+to+UX+and+UI+Design+Pattern;Expertise+in+PHP+Inlcuding%2C+Laravel+%2B+Wordpress;Javascript+Mastery+Including+(MEAN%2C+MERN%2C+React%2C+Next%2C+Nuxt%2C+Vue+)" width='300' alt="Typing SVG" /></a>
+<img src="https://readme-typing-svg.herokuapp.com/demo/font=&weight=600&letterSpacing=&color=F70000&background=73800100&vCenter=true&multiline=true&random=true&lines=Passionate+About+Solving+Complex+Problems;Building+High+Quality+Saleable+Solutions;Keen+Eye+Related+to+UX+and+UI+Design+Pattern;Expertise+in+PHP+Inlcuding%2C+Laravel+%2B+Wordpress;Javascript+Mastery+Including+(MEAN%2C+MERN%2C+React%2C+Next%2C+Nuxt%2C+Vue+)" height="40"/>
 
 <div>
 <a href="mailto: mustafa@saivra.co">
