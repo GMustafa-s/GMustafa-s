@@ -12,100 +12,200 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: 🏆 Achievements - Compact Achievements
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
         with:
-          # Your GitHub token
-          # The following scopes are required:
-          #  - public_access (default scope)
-          #  - read:user
-          #  - read:org
-          #  - public_repo
-          #  - read:project
-          # The following additional scopes may be required:
-          #  - read:org      (for organization related metrics)
-          #  - read:user     (for user related data)
-          #  - read:packages (for some packages related data)
-          #  - repo          (optional, if you want to include private repositories)
+          filename: asset/achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Options
-          user: GMustafa-s
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Karachi
+          base: ""
           plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_secrets: yes
-          plugin_achievements_threshold: A
-          plugin_activity: yes
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-          plugin_activity_limit: 5
-          plugin_activity_load: 300
-          plugin_activity_visibility: all
-          plugin_code: yes
-          plugin_code_days: 3
-          plugin_code_lines: 12
-          plugin_code_load: 400
-          plugin_code_visibility: public
-          plugin_discussions: yes
-          plugin_discussions_categories: yes
-          plugin_followup: yes
-          plugin_followup_archived: yes
-          plugin_followup_sections: repositories
-          plugin_gists: yes
-          plugin_habits: yes
-          plugin_habits_charts_type: classic
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_from: 200
-          plugin_habits_languages_limit: 8
-          plugin_habits_languages_threshold: 0%
-          plugin_introduction: yes
-          plugin_introduction_title: yes
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: C
+          plugin_achievements_limit: 12
+          
+      - name: 🎭 Comment reactions - Comment reactions
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: asset/reactions.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_reactions: yes
+          plugin_reactions_limit: 100
+          plugin_reactions_details: percentage
+
+      - name: 🗃️ Base content - Default metrics
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: asset/base.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header, activity, community, repositories
+          plugin_traffic: yes
+          plugin_lines: yes
+
+      - name: 🈷️ Most used languages - Most used
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: asset/languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
           plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_analysis_timeout_repositories: 7.5
+          plugin_languages_analysis_timeout: 30
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
-          plugin_languages_limit: 8
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
+          plugin_languages_ignored: >-
+            html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
+            gnuplot, tcl, jupyter%20notebook
+          plugin_languages_limit: 6
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
-          plugin_lines: yes
-          plugin_lines_history_limit: 1
-          plugin_lines_repositories_limit: 4
-          plugin_lines_sections: base
-          plugin_notable: yes
-          plugin_notable_from: all
-          plugin_notable_indepth: yes
-          plugin_notable_repositories: yes
-          plugin_notable_self: yes
-          plugin_notable_types: commit
-          plugin_pagespeed: yes
-          plugin_pagespeed_detailed: yes
-          plugin_pagespeed_pwa: yes
-          plugin_pagespeed_screenshot: yes
-          plugin_pagespeed_url: worklance.org
+          plugin_languages_details: bytes-size, percentage
+          
+      - name: 📅 Isometric commit calendar - Half-year calendar
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: asset/isocalendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          
+      - name: 🎟️ Follow-up of issues and pull requests - Opened on users repositories
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: asset/followup.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_followup: yes
+          plugin_followup_sections: repositories
+          
+      - name: 💡 Coding habits - Midly interesting facts
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: asset/habits.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_facts: no
+          plugin_habits_from: 1000
+          plugin_habits_days: 30
+          
+      - name: ✨ Stargazers over last weeks
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: asset/stargazers.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""      
+          plugin_stargazers: yes
+          plugin_stargazers_charts_type: classic
+          
+      - name: 💹 Stock prices
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: asset/stock.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""      
+          plugin_stock: yes
+          plugin_stock_token: ${{ secrets.STOCK_TOKEN }}
+          plugin_stock_symbol: MS
+          plugin_stock_duration: 5d
+          plugin_stock_interval: 5m
+          
+      - name: 🥠 Fortune - Fortune
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: asset/fortune.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""        
+          plugin_fortune: yes
+          
+      - name: 🧑‍🤝‍🧑 People plugin
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: asset/people.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""        
           plugin_people: yes
-          plugin_people_limit: 24
-          plugin_people_size: 28
-          plugin_people_types: followers, following
+          plugin_people_types: followers
+          
+      - name: 🐤 Latest tweets
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: asset/twitter.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""        
+          plugin_tweets: yes
+          plugin_tweets_token: ${{ secrets.TWITTER_TOKEN }}
+          plugin_tweets_attachments: no
+          plugin_tweets_user: billpwchan
+          plugin_tweets_limit: 2
+          
+      - name: 🗂️ Active projects - Project from a repository
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: asset/projects.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""        
           plugin_projects: yes
-          plugin_projects_limit: 4
-          plugin_repositories: yes
-          plugin_repositories_order: featured, pinned, starred, random
-          plugin_repositories_pinned: 0
-          plugin_repositories_random: 0
-          plugin_repositories_starred: 0
+          plugin_projects_limit: 1
+          plugin_projects_repositories: billpwchan/futu_algo/projects/1
+          plugin_projects_descriptions: yes
+          
+      - name: ♐ Code snippet of the day - JavaScript or TypeScript snippet of the day
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: asset/code.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""        
+          plugin_code: yes
+          plugin_code_languages: python, javascript
+          plugin_code_load: 400
+
+      - name: 📰 Recent activity - Recent activity
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: asset/activity.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""        
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 0
+          plugin_activity_filter: issue, pr, release, fork, review, ref/create
+          
+      - name: 🎩 Notable contributions - Indepth analysis
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: asset/notable.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""        
+          plugin_notable: yes
+          plugin_notable_indepth: yes
+          plugin_notable_repositories: yes        
+          
+      - name: 💕 GitHub Sponsors - Sponsors goal
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: asset/sponsors.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""        
           plugin_sponsors: yes
-          plugin_sponsors_past: yes
-          plugin_sponsors_sections: goal, list, about
-          plugin_sponsors_size: 24
-          plugin_sponsors_title: Sponsor Me!
-          plugin_stars: yes
-          plugin_stars_limit: 4
+          plugin_sponsors_sections: goal, list
+          plugin_sponsors_past: yes 
+          
