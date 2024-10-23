@@ -8,7 +8,7 @@ I'm Ghulam Mustafa 😉, an Experienced Developer, Product Designer, Techpreneur
 
 <div>
 <a href="mailto: mustafa@saivra.co">
-<img src="https://img.shields.io/badge/-mustafa%40saivra.co-7B83EB?&style=for-the-badge&logo=Microsoft-outlook&logoColor=white" ></a>  <a  href="https://www.instagram.com/billpwchan/">   <img src="https://img.shields.io/badge/@billpwchan_-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white"></a>  <a href="https://www.linkedin.com/in/billpwchan1998/"><img src="https://img.shields.io/badge/billpwchan-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" ></a>  <a  href="https://www.billpwchan.com/"><img src="https://img.shields.io/badge/billpwchan.com-%2312100E.svg?&style=for-the-badge&logo=safari&logoColor=white"></a>
+<img src="https://img.shields.io/badge/-mustafa%40saivra.co-7B83EB?&style=for-the-badge&logo=Microsoft-outlook&logoColor=white" ></a>  <a href="https://www.linkedin.com/in/mustafa-saivra/"><img src="https://img.shields.io/badge/mustafa-saivra-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" ></a>  <a  href="https://saivra.co/"><img src="https://img.shields.io/badge/saivra.co-%2312100E.svg?&style=for-the-badge&logo=safari&logoColor=white"></a>
 </div>
 
 ### Key Highlights of My Expertise: 📡
